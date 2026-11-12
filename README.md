@@ -21,7 +21,7 @@ El sitio está estructurado para guiar al usuario desde el impacto emocional has
 Para correr este proyecto en tu entorno local, sigue estos pasos:
 
 1. Clona el repositorio:
-   `git clone https://github.com/tu-usuario/angeles-de-esperanza.git`
+   `git clone https://github.com/tu-usuario/angeles-de-esperanza-ac.git`
 2. Instala las dependencias:
    `[COMANDO DE INSTALACIÓN, ej. npm install]`
 3. Ejecuta el servidor de desarrollo:
