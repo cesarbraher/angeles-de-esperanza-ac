@@ -1,1 +1,355 @@
-<!-- Landing Page -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ángeles de Esperanza A.C. - Centro de Rehabilitación y Tratamiento Residencial Varonil en Irapuato.">
+    <title>Inicio | Ángeles de Esperanza A.C.</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Oswald y Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado / Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <!-- Logotipo Oficial Cuadrado -->
+                <img src="assets/img/logo.png" alt="Logotipo Ángeles de Esperanza" class="nav-logo">
+                <div class="logo">Ángeles de Esperanza A.C.</div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#tratamiento">Programa</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li class="dropdown">
+                    <a href="#galerias" class="dropbtn">Galerías <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#galeria-fotos">Galería de Fotos</a>
+                        <a href="#galeria-videos">Galería de Videos</a>
+                    </div>
+                </li>
+                <li><a href="#noticias">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero (Fondo oscuro, textos resaltados) -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Tu vida y tu familia merecen un nuevo comienzo.</h1>
+            <p>En Ángeles de Esperanza A.C., te acompañamos paso a paso hacia la libertad. Más que un centro de rehabilitación, somos un hogar estructurado para sanar, reconstruir y volver a soñar.</p>
+            <div class="hero-buttons">
+                <a href="#tratamiento" class="btn btn-primary">Conoce el Programa</a>
+                <a href="https://wa.me/524622845966" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Pedir Ayuda</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section id="quienes-somos" class="about">
+        <div class="container">
+            <h2>El amor, el respeto y la disciplina que transforman realidades.</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <!-- Placeholder con tamaño en px -->
+                    <img src="assets/img/instalaciones.jpg" alt="Imagen Quiénes Somos" class="responsive-img">
+                    
+                    <h3>Nuestra Historia</h3>
+                    <p>Nacimos el 3 de marzo de 2020 en Irapuato, Guanajuato, con un propósito inquebrantable: ofrecer una oportunidad de vida real a jóvenes y adultos que luchan contra la adicción. Legalmente constituidos como Persona Moral, entendemos que detrás de cada historia de consumo hay un ser humano que merece ser escuchado y dignificado con el más alto rigor clínico y ético.</p>
+                    
+                    <h3>Filosofía Institucional</h3>
+                    <ul>
+                        <li><strong>Misión:</strong> Brindar la mejor atención para lograr una rehabilitación y reintegración social y familiar de manera integral, asegurando el retorno efectivo del paciente como un ciudadano útil.</li>
+                        <li><strong>Visión:</strong> Constituir un parteaguas frente a los modelos tradicionales, marcando una diferencia cualitativa en la recuperación del individuo.</li>
+                        <li><strong>Valores:</strong> Respeto a la individualidad, empatía, amor al servicio, disciplina transformadora y altruismo comunitario.</li>
+                    </ul>
+                    
+                    <div style="margin-top: 1.5rem;">
+                        <a href="pages/quienes-somos.html" class="btn btn-outline">Conocer más</a>
+                    </div>
+                </div>
+                <div class="about-certifications">
+                    <h3>Respaldos y Certificaciones Oficiales</h3>
+                    <p>Operamos bajo el cumplimiento estricto de las normas oficiales vigentes que rigen a los Centros de Rehabilitación en México:</p>
+                    <ul class="cert-list">
+                        <li><i class="fa-solid fa-check-circle"></i> Acreditación oficial de la <strong>Secretaría de Salud de México</strong>.</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Acreditación sanitaria <strong>DIGIPRIS / COFEPRIS</strong>.</li>
+                        <li><i class="fa-solid fa-check-circle"></i> <strong>CLUNI: 23051511E1T</strong> (Secretaría de Bienestar).</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Trato digno avalado por <strong>PRODHEG</strong>.</li>
+                    </ul>
+                    
+                    <!-- Video Placeholder -->
+                    <div style="margin-top: 2rem;">
+                        <video controls class="responsive-video" poster="https://placehold.co/600x400/e2e8f0/334155/png?text=600x400+-+VIDEO+PLACEHOLDER">
+                            <source src="assets/videos/video-certificaciones.mp4" type="video/mp4">
+                            Tu navegador no soporta el elemento de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programa de Tratamiento (Sin imágenes) -->
+    <section id="tratamiento" class="program bg-light">
+        <div class="container">
+            <h2>Sanamos el cuerpo, la mente y el espíritu.</h2>
+            <p class="subtitle">Un tratamiento residencial mixto, exclusivo para hombres de 18 a 50 años, basado en las Etapas de Cambio de Prochaska y DiClemente con una duración de 6 meses.</p>
+            
+            <div class="program-grid">
+                <div class="program-card">
+                    <i class="fa-solid fa-user-nurse"></i>
+                    <h3>Ingreso y Desintoxicación</h3>
+                    <p>Atención médica continua para sobrellevar la abstinencia en un entorno seguro, cálido y de absoluta vigilancia en nuestra área de enfermería.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fa-solid fa-apple-whole"></i>
+                    <h3>Nutrición Clínica</h3>
+                    <p>Restauración del daño neuroquímico y metabólico con 3 comidas diarias de alta calidad, preparadas bajo estrictas normas sanitarias.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h3>Cuerpo en Movimiento</h3>
+                    <p>Rutinas de acondicionamiento físico aeróbico y anaeróbico 3 veces por semana: box, artes marciales y pesas para canalizar la energía.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fa-solid fa-hands-praying"></i>
+                    <h3>Rutina y 12 Pasos</h3>
+                    <p>Estructura diaria desde las 7:00 a.m. con círculos de oración y 3 juntas diarias de Alcohólicos Anónimos (AA).</p>
+                </div>
+                <div class="program-card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Educación y Arte</h3>
+                    <p>Convenios con la SEP para regularización, sumado a clases de música, guitarra e inglés.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fa-solid fa-people-roof"></i>
+                    <h3>Dinámica Familiar</h3>
+                    <p>Los domingos son para la familia. Convivencia y juntas especiales para dotar a los familiares de herramientas como acompañantes efectivos.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="pages/programa.html" class="btn btn-outline">Conocer más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipo Multidisciplinario -->
+    <section id="equipo" class="team">
+        <div class="container">
+            <h2>El rostro humano detrás de tu recuperación.</h2>
+            <p class="subtitle">Expertos con acreditaciones de la UNAM, CONOCER, SEP, WACLE e HISPAMAP trabajando en sinergia para ti.</p>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://placehold.co/150x150/e2e8f0/334155/png?text=150x150+-+IMAGEN+2" alt="Juan Arturo" class="team-photo">
+                    <h3>Juan Arturo Bradcock Contreras</h3>
+                    <h4>Director General y Prevención</h4>
+                    <p>Líder institucional, experto en prevención de adicciones y trato digno. Acreditado por CONOCER, UNAM y PRODHEG.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://placehold.co/150x150/e2e8f0/334155/png?text=150x150+-+IMAGEN+3" alt="Dr. Juan Miguel" class="team-photo">
+                    <h3>Dr. Juan Miguel Herrera Rodríguez</h3>
+                    <h4>Director Médico</h4>
+                    <p>Médico Cirujano encargado de la valoración, estabilización biológica y control seguro del síndrome de abstinencia.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://placehold.co/150x150/e2e8f0/334155/png?text=150x150+-+IMAGEN+4" alt="Lic. Nancy" class="team-photo">
+                    <h3>Lic. Nancy Cerna Ramírez</h3>
+                    <h4>Nutrióloga Clínica</h4>
+                    <p>Especialista en restitución metabólica. Diseña planes nutracéuticos para fortalecer el sistema inmunológico.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://placehold.co/150x150/e2e8f0/334155/png?text=150x150+-+IMAGEN+5" alt="Dorotea" class="team-photo">
+                    <h3>Dorotea M. Couret Aguilar</h3>
+                    <h4>Transformational Coach</h4>
+                    <p>Especialista en neurotoxicidad. Brinda herramientas para cambiar creencias y resignificar proyectos de vida.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://placehold.co/150x150/e2e8f0/334155/png?text=150x150+-+IMAGEN+6" alt="Estela" class="team-photo">
+                    <h3>Estela Abarca Aguilar</h3>
+                    <h4>Psicóloga y Máster PNL</h4>
+                    <p>Aplica Programación Neurolingüística para desactivar anclajes adictivos y sanar traumas profundos (HISPAMAP).</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://placehold.co/150x150/e2e8f0/334155/png?text=150x150+-+IMAGEN+7" alt="Cesar Ismael" class="team-photo">
+                    <h3>Cesar Ismael Vazquez Gutierrez</h3>
+                    <h4>Consejero Certificado</h4>
+                    <p>Acompañamiento diario y contención continua. Especialista en la prevención de recaídas (Certificado CONOCER).</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="pages/equipo.html" class="btn btn-outline">Conocer más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerías -->
+    <section id="galerias" class="galleries bg-light">
+        <div class="container">
+            <h2>Una ventana a nuestra comunidad</h2>
+            <p class="subtitle">Explora nuestras instalaciones, actividades y testimonios de transformación.</p>
+            
+            <h3 id="galeria-fotos" class="gallery-title"><i class="fa-solid fa-camera-retro"></i> Galería de Fotos</h3>
+            <div class="photo-grid">
+                <img src="https://placehold.co/600x400/e2e8f0/334155/png?text=600x400+-+IMAGEN+8" alt="Galería 1" class="gallery-img">
+                <img src="https://placehold.co/600x400/e2e8f0/334155/png?text=600x400+-+IMAGEN+9" alt="Galería 2" class="gallery-img">
+                <img src="https://placehold.co/600x400/e2e8f0/334155/png?text=600x400+-+IMAGEN+10" alt="Galería 3" class="gallery-img">
+                <img src="https://placehold.co/600x400/e2e8f0/334155/png?text=600x400+-+IMAGEN+11" alt="Galería 4" class="gallery-img">
+                <img src="https://placehold.co/600x400/e2e8f0/334155/png?text=600x400+-+IMAGEN+12" alt="Galería 5" class="gallery-img">
+                <img src="https://placehold.co/600x400/e2e8f0/334155/png?text=600x400+-+IMAGEN+13" alt="Galería 6" class="gallery-img">
+            </div>
+
+            <h3 id="galeria-videos" class="gallery-title" style="margin-top: 4rem;"><i class="fa-brands fa-youtube"></i> Galería de Videos</h3>
+            <p style="text-align: center; margin-bottom: 2rem;">Conoce nuestros testimonios directamente desde nuestro canal de YouTube oficial <strong>@angelesdeesperanzaac</strong>.</p>
+            <div class="video-grid">
+                <div class="video-wrapper">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video 1" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-wrapper">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video 2" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-wrapper">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video 3" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Noticias -->
+    <section id="noticias" class="news">
+        <div class="container">
+            <h2>Palabras que iluminan el camino.</h2>
+            <p class="subtitle">Entérate de nuestras actividades comunitarias, recursos de apoyo familiar y testimonios.</p>
+            <div id="blog-posts-container" class="news-grid">
+                <p>Cargando últimas noticias desde el blog...</p>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="/blog" class="btn btn-outline">Ir al Blog Completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto, Formulario y Mapa -->
+    <section id="contacto" class="contact bg-light">
+        <div class="container">
+            <h2>El primer paso hacia tu libertad comienza con un mensaje.</h2>
+            <p class="subtitle">La ayuda profesional está a tu alcance. Contáctanos de manera confidencial.</p>
+            
+            <div class="contact-wrapper">
+                <!-- Información de Contacto en Columnas -->
+                <div class="contact-info">
+                    <h3>Atención Inmediata</h3>
+                    
+                    <div class="contact-info-grid">
+                        <div class="info-box">
+                            <h4>Dirección</h4>
+                            <p>Calle Plan de Iguala #1855<br>Colonia Guerrero, C.P. 36580<br>Irapuato, Gto., México</p>
+                        </div>
+                        <div class="info-box">
+                            <h4>Teléfono Fijo</h4>
+                            <p>+52 462 635 5929</p>
+                        </div>
+                        <div class="info-box">
+                            <h4>WhatsApp</h4>
+                            <p>+52 462 284 5966</p>
+                        </div>
+                        <div class="info-box">
+                            <h4>Correo Electrónico</h4>
+                            <p>info@angelesdeesperanzaac.org<br>angelesdeesperanza23@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-icons" style="justify-content: center;">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Formulario PHP Mail -->
+                <div class="contact-form">
+                    <form action="enviar.php" method="POST" id="form-contacto">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contacto_dato">Teléfono o WhatsApp:</label>
+                            <input type="text" id="contacto_dato" name="contacto_dato" placeholder="Tu número de contacto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="asunto">Asunto:</label>
+                            <select id="asunto" name="asunto" required>
+                                <option value="Información de Ingreso">Información de Ingreso</option>
+                                <option value="Ayuda para un familiar">Ayuda para un familiar</option>
+                                <option value="Contacto General">Contacto General</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Cómo podemos ayudarte?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Solicitar Información</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Mapa de Google Maps -->
+            <div class="map-container" style="margin-top: 4rem;">
+                <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--primary); font-family: var(--font-heading); text-transform: uppercase;">Nuestra Ubicación</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.242967664871!2d-101.3533816!3d20.6606019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842c7e0000000001%3A0x0!2sCalle%20Plan%20de%20Iguala%201855%2C%20Guerrero%2C%2036580%20Irapuato%2C%20Gto.%2C%20Mexico!5e0!3m2!1sen!2smx!4v1700000000000!5m2!1sen!2smx" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">Ángeles de Esperanza A.C.</div>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="pages/quienes-somos.html">Quiénes Somos</a>
+                <a href="pages/programa.html">Programa</a>
+                <a href="pages/equipo.html">Equipo</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="footer-legal">
+                <a href="aviso-privacidad.html">Aviso de Privacidad</a> | <a href="terminos.html">Términos y Condiciones</a>
+            </div>
+            <p>&copy; 2026 Ángeles de Esperanza A.C. - Todos los derechos reservados. Asociación Civil sin fines de lucro.</p>
+        </div>
+    </footer>
+
+    <!-- Botón WhatsApp Flotante -->
+    <a href="https://wa.me/524622845966?text=Hola,%20necesito%20información%20sobre%20el%20tratamiento%20de%20Ángeles%20de%20Esperanza" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
