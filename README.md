@@ -21,7 +21,7 @@ El sitio está estructurado para guiar al usuario desde el impacto emocional has
 - **`enviar.php`**: Script procesador del formulario de contacto. Envía los correos directamente.
 - **`sitemap.xml`**: Mapa del sitio en formato XML para SEO y motores de búsqueda.
 - **`pages/`**: Carpeta con las subpáginas (`quienes-somos.html`, `programa.html`, `equipo.html`).
-- **`assets/img/`**: Directorio de imágenes. Aquí se encuentra el logo (`LOGOTIPO TRANSPARENTE.png`) y donde debes reemplazar los placeholders (`imagen1.png`, `imagen2.png`...).
+- **`assets/img/`**: Directorio de imágenes. Incluye el logotipo oficial (`logo.png`), portada (`portada.jpg`), instalaciones (`instalaciones.jpg`) y fotografías del equipo (`dorothy.png`, `estela.png`).
 - **`assets/videos/`**: Directorio de videos. Aquí va el video de certificaciones (`video-certificaciones.mp4`).
 
 ## ⚙️ Notas de Implementación
