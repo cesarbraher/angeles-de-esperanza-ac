@@ -1,0 +1,6 @@
+{
+  "name": "AEAC-WEB — Ángeles de Esperanza, A.C.",
+  "description": "Propuesta digital y sitio web institucional del Centro de Rehabilitación en Adicciones Ángeles de Esperanza, A.C. en Irapuato, Guanajuato.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
